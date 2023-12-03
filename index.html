@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ElementGen</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="ElementGen.ico">
+
+</head>
+<body class="parallax">
+    <div id="help-btn"></div>
+		<div class="overlay">
+			<h1>ElementGen</h1>
+			<button id="generate-btn">Generate</button>
+			<div id="result"></div>
+			<div id="settings">
+				<label for="max-pairs">Name Length:</label>
+				<input type="range" id="max-pairs" name="max-pairs" min="1" max="5" value="2">
+				<span id="max-pairs-value">2</span><br>
+				<input type="checkbox" id="enable-rare-events" name="enable-rare-events">
+				<label for="enable-rare-events">Enable Rare Events</label>
+				<input type="checkbox" id="do-random" name="do-random">
+				<label for="do-random">Random Name Lengths</label>
+			</div id="settings">
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
